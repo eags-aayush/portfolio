@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.languageSpans{
+    @apply flex flex-row bg-accent p-2 px-5 rounded-full items-center gap-2 cursor-pointer border-2 border-background hover:border-text focus:border-text transition-all ease-in-out duration-250  
+}
+
+.navLi{
+    @apply hover:underline hover:underline-offset-8 cursor-pointer
+}
+
+@theme {
+    --color-text: var(--text);
+    --color-background: var(--background);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-accent: var(--accent);
+}
+
+:root{
+    --text: #0c1405;
+    --background: #fafdf7;
+    --primary: #e6f4d7;
+    --secondary: #79b8fb;
+    --accent: #d8cefd;
+}
+
+.dark{
+    --text: #f2faeb;
+    --background: #050802;
+    --primary: #9dd45e;
+    --secondary: #044386;
+    --accent: #8a6bfa;
+}
