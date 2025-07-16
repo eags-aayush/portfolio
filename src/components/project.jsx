@@ -7,7 +7,7 @@ const project = ({ title, desc, projectLink, language }) => {
             <div className='flex flex-row gap-2 justify-between'>
                 <div className='w-7/8 flex flex-col gap-2'>
                     <h1 className='font-bold'>{title}</h1>
-                    <h1 className=''>By {desc}</h1>
+                    <h1 className=''>{desc}</h1>
                 </div>
                 <div className='w-1/8'>
                     <a href={projectLink} target='_blank'>
